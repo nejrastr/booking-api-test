@@ -113,7 +113,7 @@ public class BookingSmokeTest {
         .when()
         .delete("/booking/" + bookingId)
         .then()
-        .statusCode(201);
+        .statusCode(204);
   }
 }
 
